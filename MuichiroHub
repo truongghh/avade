@@ -97,19 +97,6 @@ Tab1:AddButton({
 })
 
 
-Tab1:AddSlider:Set(2)({
-    Name = "WalkSpeed",
-    Min = 0,
-    Max = 100,
-    Default = 16,
-    Color = Color3.fromRGB(255, 0, 0),
-    Increment = 1,
-    ValueName = "WalkSpeed",
-    Callback = function(Value)
-        Player.Character.Humanoid.WalkSpeed = Value
-    end
-})
-
 Tab3:AddButton({
     Name = "Skeleton ESP",
     Callback = function(v)
